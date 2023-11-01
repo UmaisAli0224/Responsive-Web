@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* CSS code for responsive website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Navigation styles */
+    nav {
+      background-color: #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Media queries for responsive layout */
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 5px 0;
+      }
+
+      .image-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Responsive Website</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>This is my Responsive Website</h2>
+
+    <div class="image-container">
+      <img src="https://wallpaperset.com/w/full/3/1/4/124273.jpg" alt="Desktop Image"><br>
+      <p class="caption">The wallpaper is the image that appears behind the icons on your computer's desktop—that's why it's usually called a desktop background. On most computers, you can change your background by right-clicking the desktop and selecting Personalize.</p><br>
+    </div>
+
+    <div class="image-container">
+      <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?cs=srgb&dl=pexels-lisa-fotios-1092644.jpg&fm=jpg" alt="Mobile Image"><br>
+      <p class="caption">Watching your mobile screen with those white or black vertical/horizontal lines is annoying. In short, it's tough to use a phone with these lines appearing on the screen. Typically, this issue is associated with the LCD, caused by a faulty hardware component in your device due to some accidental fall or water damage.</p><br>
+    </div>
+
+    <div class="image-container">
+      <img src="https://www.bluecorona.com/wp-content/uploads/2015/04/what-is-a-responsive-website.png" alt="Responsive Image"><br>
+      <p class="caption">Responsive images are those images that fit well to the screens, irrespective of their aspect ratios. Responsive images will naturally change in accordance by adjusting to the screen. A perfect responsive image should fit and easily be visible when you minimize the desktop screens or even use a smartphone with any resolutions (meaning you donot need to scroll up-down or left-right to see the entire image). For example, refer to the below example for better understanding.
+
+      </p><br>
+    </div>
+  </main>
+
+  <footer>
+    <p>Thank you</p>
+  </footer>
+</body>
+</html>
